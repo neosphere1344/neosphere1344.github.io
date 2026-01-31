@@ -1,0 +1,62 @@
+/* Base reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global body style */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #0f1115;
+  color: #e6e6eb;
+  line-height: 1.7;
+}
+
+/* Layout container */
+.container {
+  max-width: 720px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 16px;
+  color: #cfcfd6;
+}
+
+/* Links */
+a {
+  color: #7aa2ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Divider */
+hr {
+  border: none;
+  border-top: 1px solid #2a2d36;
+  margin: 40px 0;
+}
+
+/* Disclaimer box */
+.disclaimer {
+  font-size: 0.9rem;
+  color: #9a9aa3;
+  border-left: 3px solid #3a3f4b;
+  padding-left: 12px;
+}
