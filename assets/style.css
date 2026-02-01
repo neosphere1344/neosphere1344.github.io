@@ -144,3 +144,10 @@ nav a {
   box-shadow: 0 10px 30px rgba(99,102,241,0.4);
   opacity: 0.95;
 }
+
+article {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.7;
+}
